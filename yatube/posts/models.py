@@ -1,8 +1,9 @@
-from tokenize import group
 from django.db import models
 from django.contrib.auth import get_user_model
 
+
 User = get_user_model()
+
 
 class Group(models.Model):
     title = models.CharField(max_length=200)
@@ -24,6 +25,6 @@ class Post(models.Model):
     group = models.ForeignKey(
         Group,
         on_delete=models.CASCADE,
-        blank=True, 
+        blank=True,
         null=True
     )
