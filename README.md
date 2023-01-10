@@ -24,9 +24,9 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 ### Технологии
-Python 3.7
-Django 2.2.19
-Six 1.15.0
+- Python 3.7
+- Django 2.2.19
+- Six 1.15.0
 
 ### Автор
 Иван Голенко
